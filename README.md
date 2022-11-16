@@ -5,8 +5,8 @@ Targeted vulnerability scanning for burp suite.
 Making burp scan every vulnerability for even a single insertion point defined inside Intruder may sometimes take up to 2-3 days! 
 In a time constraint environment (ahem... the Portswigger exam...), there is no need to scan all issues in the world. We should only launch specific vulnerability scan in places of suspicion so that the scan complete within minutes instead of hours or days.
 
-Where are custom scanner audit files located?
-$ ~/.BurpSuite/ConfigLibrary
+Where are custom scanner audit files located? 
+`$ ~/.BurpSuite/ConfigLibrary`
 
 # Observation thus far
 Out-of-band detection for various vulnerability class so far has been doing pretty well.
