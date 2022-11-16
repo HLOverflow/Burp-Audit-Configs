@@ -20,8 +20,9 @@ Following are the labs that has been tested on with pretty good detection:
 - [Blind OS command injection with out-of-band interaction](https://portswigger.net/web-security/os-command-injection/lab-blind-out-of-band)
 - [Blind SQL injection with out-of-band interaction](https://portswigger.net/web-security/sql-injection/blind/lab-out-of-band)
 
-Following are the labs that has performed poorly in detection:
+Following are the labs that has performed poorly in detection (targetted scan or just plain scan-all active scan):
 - [Blind SQL injection with time delays](https://portswigger.net/web-security/sql-injection/blind/lab-time-delays)
+- [Blind SSRF with out-of-band detection](https://portswigger.net/web-security/ssrf/blind/lab-out-of-band-detection)
 
 # TODO
 Test the effectiveness of the configuration on more burp labs.
