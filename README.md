@@ -8,6 +8,11 @@ In a time constraint environment (ahem... the Portswigger exam...), there is no 
 Where are custom scanner audit files located? 
 `$ ~/.BurpSuite/ConfigLibrary`
 
+# How to use?
+1. Add the JSON files to the default Burp directory where audit files are located.
+2. Each time you send a request to intruder tab and add an insertion point, right click to get context menu.
+3. Choose *Scan defined insertion points > Open Scan Launcher > Scan configuration > Select from library > Custom*
+
 # Observation thus far
 Out-of-band detection for various vulnerability class so far has been doing pretty well.
 
