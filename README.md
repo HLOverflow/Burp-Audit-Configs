@@ -23,6 +23,8 @@ Following are the labs that has been tested on with pretty good detection:
 Following are the labs that has performed poorly in detection (targetted scan or just plain scan-all active scan):
 - [Blind SQL injection with time delays](https://portswigger.net/web-security/sql-injection/blind/lab-time-delays)
 - [Blind SSRF with out-of-band detection](https://portswigger.net/web-security/ssrf/blind/lab-out-of-band-detection)
+- [Server-side template injection in an unknown language with a documented exploit](https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-in-an-unknown-language-with-a-documented-exploit)
+- [Server-side template injection using documentation](https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-using-documentation)
 
 # TODO
 Test the effectiveness of the configuration on more burp labs.
